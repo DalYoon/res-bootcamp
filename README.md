@@ -8,9 +8,9 @@ npm install
 
 ## Build
 
-- Build: `npm run res:build`
-- Clean: `npm run res:clean`
-- Build & watch: `npm run res:dev`
+- Build: `npm run build`
+- Clean: `npm run clean`
+- Build & watch: `npm run dev`
 
 ## Run
 
