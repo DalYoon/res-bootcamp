@@ -1,7 +1,8 @@
-let a = "World"
-
+let hello = "Hello"
+let res = "ReScript"
 let concat = (a, b) => a ++ b
+let greeting = () => {
+  hello->concat(" ")->concat(res)->Js.log
+}
 
-"Hello"->concat(a)->Console.log
-
-// Console.log("Hello, World!")
+greeting()

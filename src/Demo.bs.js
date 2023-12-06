@@ -2,14 +2,22 @@
 'use strict';
 
 
-var a = "World";
+var hello = "Hello";
+
+var res = "ReScript";
 
 function concat(a, b) {
   return a + b;
 }
 
-console.log("Hello" + a);
+function greeting(param) {
+  console.log(hello + " " + res);
+}
 
-exports.a = a;
+greeting(undefined);
+
+exports.hello = hello;
+exports.res = res;
 exports.concat = concat;
+exports.greeting = greeting;
 /*  Not a pure module */
